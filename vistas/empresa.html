@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../CSS/estilos.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -36,8 +37,9 @@
             </p>
         </section>
         <section class="imagenes">
-            <img id="img" src="../multimedia/lovagnshe.jpg" alt="300px">
-            <img id="img2" src="../multimedia/PIRAMLAN.jpg" alt="300px">
+            <img id="img" src="../multimedia/lovagnshe.jpg" alt="300px" data-aos="flip-up">
+            <img id="img2" src="../multimedia/PIRAMLAN.jpg" alt="300px" data-aos="flip-up">
+
         </section>
     </main>
     <footer>
@@ -54,5 +56,9 @@
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
