@@ -1,0 +1,370 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+           /*HEADER*/
+
+.header{
+    display: flex;
+    background-color: darkblue;
+    justify-content: space-between;
+    align-items:center;
+}
+.header>section{
+}
+
+.logo{
+    display: flex;
+    animation-name: flip;
+    animation-duration: 1s;
+}
+
+.header__ul{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    margin-top: 0;
+    list-style: none;
+}
+.header__ul a{
+    text-align: center;
+    margin: 22px;
+}
+.header__ul > li > a:hover{
+    color: cyan;
+    transform: translateY(-10px);
+}
+
+.header__ul > li > a{
+    text-decoration: none;
+    padding: 0.6rem;
+    color: #fff;
+    transition: 0.5s;
+}
+
+              /*MAIN BIENVENIDA*/
+
+.bienvenida{
+    min-height: 88vh;
+    background-image:url(../multimedia/Astralis-major.jpg);
+    background-size: cover;
+}
+.bienvenida section{
+    text-align: center;
+    padding: 2rem 0rem 2rem 0rem;
+}
+.ContenedorBienvenida{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+.bienvenida h1{
+    text-align: center;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bienvenida h2{
+    color: #fff;
+}
+
+.p1{
+    grid-column: 2/3;
+    margin: 0px 4px;
+}
+.p2{
+    margin: 0px 6px;
+}
+
+.bienvenida p{
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    overflow: auto;
+    color: #fff;
+    grid-column: ;
+}
+
+
+              /*Footer*/
+
+footer{
+    background-color: #3586ff;
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    font-size: 20px;
+    color:#fff
+}
+footer .redes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0;
+}
+footer .redes {
+    list-style: none;
+}
+footer .redes a {
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+    margin: 0 10px;
+    transition: 0.5s;
+}
+footer .redes a:hover{
+    transform: translateY(-10px);
+}
+
+        /*MAIN EMPRESA*/
+
+.fondoEmpresa{
+    width: 100%;
+    min-height: 83vh;
+    background-image: url(../multimedia/ESL-One-Cologne-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titulo{
+    width: 90vw;
+    height: 100px;
+    margin-left: 6rem;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.fondoEmpresa>section>h1{
+    color: #fff;
+    
+}
+.fondoEmpresa>section>h2{
+    color:#fff
+}
+.fondoEmpresa>section>p{
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+    width: 350px;
+    padding-left: 5rem;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.descripcion2{
+    text-align: right;
+    width: 650px;
+    margin-left: 1000px;
+}
+.fondoEmpresa>section>img{
+    display: inline-block;
+    width: 500px;
+    height: 400px;
+    border: double;
+    border-color: #fff;
+    justify-content: space-evenly;
+    margin: 2rem;
+}
+.fondoEmpresa #img2{
+    border: double;
+    border-color: #fff;
+    width: 600px;
+    margin-left: 43rem;
+    height: 400px;
+}
+
+          /*Main Contenido*/
+
+.fondoContenido{
+    width: 100%;
+    min-height: 85vh;
+    background-image: url(../multimedia/ESL-One-Cologne-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main__contenido{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 0.5fr;
+    justify-items: center;
+    align-items: end;
+}
+.videosTUBE{
+    grid-column: 2/3;
+}
+.videosyt{
+    width: 100%;
+}
+.videosyt2{
+    width: 100%;
+}
+.videosTUBE2{
+    grid-column: 5/6;
+}
+.tablemaps{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size: 20px;
+    color: #fff;
+    grid-column: 3/5;
+    grid-row: 1/-7;
+}
+
+         /*Tablas*/
+
+table ul{
+    list-style-type:none;
+    padding-left: 1rem;
+}
+
+table ul li{
+    padding-bottom: 2rem
+}
+table ul li:hover{
+    color: yellow;
+}
+      /*Main formulario*/
+
+.main__form{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../multimedia/PGL-Major-Cracovia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 82vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 32px;
+}
+
+.user{
+    position: relative;
+    width: 450px;
+    min-height: 300px;
+}
+
+.user legend{
+    color: #fff;
+    font: 34px;
+}
+.user .inputBox{
+    width: 100%;
+    margin-top: 20px;
+}
+.user .inputBox input{
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    font-size: 20px;
+    color: #fff;
+    padding: 5px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+::placeholder{
+    color: #fff;
+}
+.user  .inputBox input[type="submit"]{
+    background: #fff;
+    color: #000;
+    border: none;
+    font-weight: 900;
+    max-width: 100px;
+    cursor: pointer;
+}
+.user p{
+    color: #fff; 
+}
+.user p a{
+    color: rgb(252, 2, 2);
+    text-decoration: none;
+    padding-left: 1px;
+}
+
+        /*Main Contacto*/
+        
+.fondoContacto{
+    width: 100%;
+    min-height: 85vh;
+    background-image: url(../multimedia/Astralis-major.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.user  .inputBox input[type="reset"]{
+    background: #fff;
+    color: #000;
+    border: none;
+    font-weight: 900px;
+    max-width: 100px;
+    cursor: pointer;
+}
+/*Animation logo*/
+@keyframes flip{
+    0% {
+      transform: scale(1) rotateZ(0);
+    }
+    50% {
+      transform: scale(2) rotateZ(180deg);
+    }
+    100% {
+      transform: scale(1) rotateZ(360deg);
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .header{
+        flex-direction: column;
+        
+    }
+    .header__ul a{
+        margin: 0.4rem;
+    }
+    .video__main{
+        width: 100%;
+    }
+    .p1{
+        padding: 20px;
+    }
+    .p2{
+        font-size: 1px;
+    }
+    .ContenedorBienvenida{
+        display: flex;
+        flex-wrap: wrap;
+        min-height: auto;
+    }
+    .tablemaps{
+        display: grid;
+    }
+    table ul{
+        display: grid;
+        flex-direction: column;
+    }
+    .videosTUBE{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .videosyt{
+        width: 100%;
+
+    }
+    .videosyt2{
+        grid-column: span 2;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 425px) {
+.header__ul{
+    flex-direction: column;
+    line-height: 1.7;
+}
+footer{
+    flex-direction: column;
+}
+}
