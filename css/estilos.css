@@ -13,36 +13,11 @@
     justify-content: space-between;
     align-items:center;
 }
-.header>section{
-}
 
 .logo{
     display: flex;
     animation-name: flip;
     animation-duration: 1s;
-}
-
-.header__ul{
-    display: flex;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
-    margin-top: 0;
-    list-style: none;
-}
-.header__ul a{
-    text-align: center;
-    margin: 22px;
-}
-.header__ul > li > a:hover{
-    color: cyan;
-    transform: translateY(-10px);
-}
-
-.header__ul > li > a{
-    text-decoration: none;
-    padding: 0.6rem;
-    color: #fff;
-    transition: 0.5s;
 }
 
               /*MAIN BIENVENIDA*/
@@ -65,66 +40,56 @@
     text-align: center;
 }
 .bienvenida h1{
-    text-align: center;
-    color: #fff;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    font-size: 2rem;
 }
 .bienvenida h2{
-    color: #fff;
     animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 .p1{
     grid-column: 2/3;
-    margin: 0px 4px;
+    margin: 0 0.5rem;
 }
 .p2{
-    margin: 0px 6px;
+    margin: 0 0.7rem;
 }
 
 .bienvenida p{
-    font-size: 22px;
+    font-size: 1.5rem;
     font-family: 'Times New Roman', Times, serif;
     overflow: auto;
     color: #fff;
-    grid-column: ;
 }
-
-
               /*Footer*/
 
 footer{
     background: rgb(34,81,198);
     background: linear-gradient(180deg, rgba(34,81,198,1) 35%, rgba(0,69,240,1) 64%, rgba(9,9,121,1) 77%);
-    min-height: 80px;
+    min-height: 2.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 footer p{
-    font-size: 20px;
+    font-size: 1rem;
     color:#fff
 }
 footer .redes{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin: 10px 0;
-}
-footer .redes {
-    list-style: none;
+        margin: 1rem 0;
 }
 footer .redes a {
     font-size: 2em;
     color: rgb(255, 255, 255);
-    margin: 0 10px;
+    margin: 0 1rem;
     transition: 0.5s;
 }
 footer .redes a:hover{
     transform: translateY(-10px);
 }
-
         /*MAIN EMPRESA*/
 
 .fondoEmpresa{
@@ -187,7 +152,14 @@ footer .redes a:hover{
     grid-column: 3/4;
     margin: 4rem;
 }
-
+.slide{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.img-carrusel img{
+    height: 65vh;
+    object-fit: cover;
+}
           /*Main Contenido*/
 
 .fondoContenido{
