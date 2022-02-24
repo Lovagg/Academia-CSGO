@@ -1,0 +1,12 @@
+.header{
+    display: flex;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 58%, rgba(34,81,198,1) 68%);
+    justify-content: space-between;
+    align-items:center;
+    .logo{
+        display: flex;
+        animation-name: flip;
+        animation-duration: 1s;
+    }
+}

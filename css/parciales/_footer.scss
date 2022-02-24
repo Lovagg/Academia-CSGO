@@ -1,0 +1,27 @@
+.footer{
+    background: rgb(34,81,198);
+    background: linear-gradient(180deg, rgba(34,81,198,1) 35%, rgba(0,69,240,1) 64%, rgba(9,9,121,1) 77%);
+    min-height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{
+        font-size: 1rem;
+        color:#fff
+    }
+    .redes{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 1rem 0;
+            a {
+                font-size: 2em;
+                color: rgb(255, 255, 255);
+                margin: 0 1rem;
+                transition: 0.5s;
+            }
+    }
+    .redes a:hover{
+        transform: translateY(-10px);
+    }
+}

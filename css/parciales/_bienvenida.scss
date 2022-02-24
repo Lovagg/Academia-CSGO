@@ -1,0 +1,39 @@
+.bienvenida{
+    min-height: 88vh;
+    background-image:url(../multimedia/Astralis-major.jpg);
+    background-size: cover;
+    section{
+        padding-top: 7rem;
+        text-align: center;
+    }
+    
+    .ContenedorBienvenida{
+        display: grid;
+        grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+    }
+    h1{
+        animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        font-size: 2rem;
+    }
+    h2{
+        animation: slide-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+    
+    .p1{
+        grid-column: 2/3;
+        margin: 0 0.5rem;
+    }
+    .p2{
+        margin: 0 0.7rem;
+    }
+    
+    p{
+        font-size: 1.5rem;
+        font-family: 'Times New Roman', Times, serif;
+        overflow: auto;
+        color: #fff;
+    }
+}

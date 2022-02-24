@@ -1,1 +1,557 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #020024;
+  background: -webkit-gradient(linear, left top, left bottom, from(#020024), color-stop(58%, #090979), color-stop(68%, #2251c6));
+  background: linear-gradient(180deg, #020024 0%, #090979 58%, #2251c6 68%);
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-animation-name: flip;
+          animation-name: flip;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+.bienvenida {
+  min-height: 88vh;
+  background-image: url(../multimedia/Astralis-major.jpg);
+  background-size: cover;
+}
+
+.bienvenida section {
+  padding-top: 7rem;
+  text-align: center;
+}
+
+.bienvenida .ContenedorBienvenida {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
+      grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.bienvenida h1 {
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+          animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  font-size: 2rem;
+}
+
+.bienvenida h2 {
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+          animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.bienvenida .p1 {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  margin: 0 0.5rem;
+}
+
+.bienvenida .p2 {
+  margin: 0 0.7rem;
+}
+
+.bienvenida p {
+  font-size: 1.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  overflow: auto;
+  color: #fff;
+}
+
+.fondoEmpresa {
+  width: 100%;
+  min-height: 83vh;
+  background-image: url(../multimedia/ESL-One-Cologne-scaled.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fondoEmpresa h1 {
+  color: #fff;
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+          animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.fondoEmpresa h2 {
+  color: #fff;
+  -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+          animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.fondoEmpresa .titulo {
+  height: 20rem;
+  text-align: center;
+  padding-top: 7rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fondoEmpresa .descripcion {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.2fr 1fr 1fr 1fr 0.4fr;
+      grid-template-columns: 0.2fr 1fr 1fr 1fr 0.4fr;
+  font-size: 2rem;
+  color: #fff;
+  text-align: center;
+}
+
+.fondoEmpresa .texto1 {
+  top: 1rem;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  margin: 2rem;
+}
+
+.fondoEmpresa .descripcion2 {
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 1;
+  grid-column: 4/5;
+  text-align: center;
+  margin: 2rem;
+}
+
+.fondoEmpresa .imagenes {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.2fr 1fr  1fr 0.2fr;
+      grid-template-columns: 0.2fr 1fr  1fr 0.2fr;
+}
+
+.fondoEmpresa #img {
+  height: 500px;
+  border: double;
+  border-color: #fff;
+  margin: 4rem;
+}
+
+.fondoEmpresa #img2 {
+  height: 500px;
+  border: double;
+  border-color: #fff;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+  margin: 4rem;
+}
+
+.fondoEmpresa .slide {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.fondoEmpresa .img-carrusel img {
+  height: 65vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.fondoContenido {
+  width: 100%;
+  min-height: 85vh;
+  background-image: url(../multimedia/ESL-One-Cologne-scaled.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fondoContenido .main__contenido {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 0.5fr;
+      grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 0.5fr;
+  justify-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+
+.fondoContenido .videosTUBE {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-column: 2/4;
+}
+
+.fondoContenido .videosyt {
+  width: 100%;
+}
+
+.fondoContenido .videosyt2 {
+  width: 100%;
+}
+
+.fondoContenido .videosTUBE2 {
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 2;
+  grid-column: 5/7;
+}
+
+.fondoContenido .tablemaps {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  font-size: 2rem;
+  color: #fff;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 5;
+  grid-column: 2/7;
+}
+
+.fondoContenido .tablemaps ul {
+  list-style-type: none;
+  padding-left: 1rem;
+}
+
+.fondoContenido .tablemaps ul li {
+  padding-bottom: 2rem;
+}
+
+.fondoContenido .tablemaps ul li:hover {
+  color: yellow;
+}
+
+.fondoContenido {
+  width: 100%;
+  min-height: 85vh;
+  background-image: url(../multimedia/ESL-One-Cologne-scaled.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fondoContenido .main__contenido {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 0.5fr;
+      grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 0.5fr;
+  justify-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+
+.fondoContenido .videosTUBE {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-column: 2/4;
+}
+
+.fondoContenido .videosyt {
+  width: 100%;
+}
+
+.fondoContenido .videosyt2 {
+  width: 100%;
+}
+
+.fondoContenido .videosTUBE2 {
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 2;
+  grid-column: 5/7;
+}
+
+.fondoContenido .tablemaps {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  font-size: 2rem;
+  color: #fff;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 5;
+  grid-column: 2/7;
+}
+
+.fondoContenido .tablemaps ul {
+  list-style-type: none;
+  padding-left: 1rem;
+}
+
+.fondoContenido .tablemaps ul li {
+  padding-bottom: 2rem;
+}
+
+.fondoContenido .tablemaps ul li:hover {
+  color: yellow;
+}
+
+.footer {
+  background: #2251c6;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(35%, #2251c6), color-stop(64%, #0045f0), color-stop(77%, #090979));
+  background: linear-gradient(180deg, #2251c6 35%, #0045f0 64%, #090979 77%);
+  min-height: 2.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer p {
+  font-size: 1rem;
+  color: #fff;
+}
+
+.footer .redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1rem 0;
+}
+
+.footer .redes a {
+  font-size: 2em;
+  color: white;
+  margin: 0 1rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.footer .redes a:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.main__form {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(../multimedia/PGL-Major-Cracovia.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main__form .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 82vh;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2rem;
+}
+
+.main__form .user {
+  position: relative;
+  width: 450px;
+  min-height: 300px;
+}
+
+.main__form .user legend {
+  color: #fff;
+  font: 2rem;
+}
+
+.main__form .user .inputBox {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.main__form .user .inputBox input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+  outline: none;
+  font-size: 1.4rem;
+  color: #fff;
+  padding: 0.5rem 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main__form .user .inputBox input input[type="submit"] {
+  background: #fff;
+  color: #000;
+  border: none;
+  font-weight: 900;
+  max-width: 100px;
+  cursor: pointer;
+}
+
+.main__form .user .inputBox input p {
+  color: #fff;
+}
+
+.main__form .user .inputBox input p a {
+  color: #fc0202;
+  text-decoration: none;
+  padding-left: 1px;
+}
+
+.main__form .user .inputBox ::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.main__form .user .inputBox :-ms-input-placeholder {
+  color: #fff;
+}
+
+.main__form .user .inputBox ::-ms-input-placeholder {
+  color: #fff;
+}
+
+.main__form .user .inputBox ::placeholder {
+  color: #fff;
+}
+
+@-webkit-keyframes flip {
+  0% {
+    -webkit-transform: scale(1) rotateZ(0);
+            transform: scale(1) rotateZ(0);
+  }
+  50% {
+    -webkit-transform: scale(2) rotateZ(180deg);
+            transform: scale(2) rotateZ(180deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotateZ(360deg);
+            transform: scale(1) rotateZ(360deg);
+  }
+}
+
+@keyframes flip {
+  0% {
+    -webkit-transform: scale(1) rotateZ(0);
+            transform: scale(1) rotateZ(0);
+  }
+  50% {
+    -webkit-transform: scale(2) rotateZ(180deg);
+            transform: scale(2) rotateZ(180deg);
+  }
+  100% {
+    -webkit-transform: scale(1) rotateZ(360deg);
+            transform: scale(1) rotateZ(360deg);
+  }
+}
+
+/*Animation title empresa*/
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+}
+@keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .header__ul a {
+    margin: 0.4rem;
+  }
+  .video__main {
+    width: 100%;
+  }
+  .p1 {
+    padding: 1.3rem;
+  }
+  .p2 {
+    font-size: 1em;
+  }
+  .ContenedorBienvenida {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    min-height: auto;
+  }
+  .tablemaps {
+    font-size: 1.2rem;
+  }
+  .tablemaps ul {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .videosTUBE {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+  }
+  .videosyt {
+    width: 100%;
+  }
+  .videosyt2 {
+    grid-column: span 2;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header__ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    line-height: 1.7;
+  }
+  footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .tablemaps {
+    font-size: 0.7rem;
+  }
+  .videosTUBE {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+  }
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,58 @@
+@media screen and (max-width: 768px) {
+    .header{
+        flex-direction: column;
+        
+    }
+    .header__ul a{
+        margin: 0.4rem;
+    }
+    .video__main{
+        width: 100%;
+    }
+    .p1{
+        padding: 1.3rem;
+    }
+    .p2{
+        font-size: 1em;
+    }
+    .ContenedorBienvenida{
+        display: flex;
+        flex-wrap: wrap;
+        min-height: auto;
+    }
+    .tablemaps{
+        font-size: 1.2rem;
+        ul{
+            display: grid;
+            flex-direction: column;
+        }
+    }
+    
+    .videosTUBE{
+        grid-column: 2/4;
+    }
+    .videosyt{
+        width: 100%;
+
+    }
+    .videosyt2{
+        grid-column: span 2;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 425px) {
+.header__ul{
+    flex-direction: column;
+    line-height: 1.7;
+}
+footer{
+    flex-direction: column;
+}
+.tablemaps{
+    font-size: 0.7rem;
+}
+.videosTUBE{
+    grid-column: 2/4;
+}
+
+}
