@@ -1,0 +1,43 @@
+.fondoContenido{
+    width: 100%;
+    min-height: 85vh;
+    background-image: url(../multimedia/ESL-One-Cologne-scaled.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .main__contenido{
+        display: grid;
+        grid-template-columns: 0.5fr 1fr 1fr 1fr 1fr 1fr 0.5fr;
+        justify-items: center;
+        align-items: start;
+    }
+    .videosTUBE{
+        grid-column: 2/4;
+    }
+    .videosyt{
+        width: 100%;
+    }
+    .videosyt2{
+        width: 100%;
+    }
+    .videosTUBE2{
+        grid-column: 5/7;
+    }
+    .tablemaps{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: oblique;
+        font-size: 2rem;
+        color: #fff;
+        grid-column: 2/7;
+        ul{
+            list-style-type:none;
+            padding-left: 1rem;
+        }
+        
+        ul li{
+            padding-bottom: 2rem
+        }
+    }
+    .tablemaps ul li:hover{
+        color: yellow;
+    }
+}
