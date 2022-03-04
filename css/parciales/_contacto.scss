@@ -1,15 +1,21 @@
 .fondoContacto{
     width: 100%;
     min-height: 85vh;
-    background-image: url(../multimedia/Astralis-major.jpg);
+    background-image: url(/multimedia/PGL-Major-Cracovia.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    .user  .inputBox input[type="reset"]{
-        background: #fff;
-        color: #000;
-        border: none;
-        font-weight: 900px;
-        max-width: 100px;
-        cursor: pointer;
+    .form{
+
+    .user{
+
+        .inputBox input[type="reset"]{
+                background: #fff;
+                color: #000;
+                border: none;
+                font-weight: 900px;
+                max-width: 100px;
+                cursor: pointer;
+            }
+    }
     }
 }
