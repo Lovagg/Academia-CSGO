@@ -6,9 +6,6 @@
     .header__ul a{
         margin: 0.4rem;
     }
-    .video__main{
-        width: 100%;
-    }
     .p1{
         padding: 1.3rem;
     }
@@ -19,6 +16,9 @@
         display: flex;
         flex-wrap: wrap;
         min-height: auto;
+        .video__main{
+            width: 100%;
+        }
     }
     .tablemaps{
         font-size: 1.2rem;

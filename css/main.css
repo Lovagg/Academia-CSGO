@@ -240,7 +240,7 @@
   background-size: cover;
 }
 
-.fondoContacto .form .user.inputBox input[type="reset"] {
+.fondoContacto .form .user .inputBox input[type="reset"] {
   background: #fff;
   color: #000;
   border: none;
@@ -299,7 +299,7 @@
 .main__form {
   width: 100%;
   min-height: 100vh;
-  background-image: url(/multimedia/ESL-One-Cologne-scaled.jpg);
+  background-image: url(/multimedia/pgl-estocolmo-2021-1270064.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -314,6 +314,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
   min-height: 82vh;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 2rem;
@@ -444,9 +445,6 @@
   .header__ul a {
     margin: 0.4rem;
   }
-  .video__main {
-    width: 100%;
-  }
   .p1 {
     padding: 1.3rem;
   }
@@ -460,6 +458,9 @@
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     min-height: auto;
+  }
+  .ContenedorBienvenida .video__main {
+    width: 100%;
   }
   .tablemaps {
     font-size: 1.2rem;
