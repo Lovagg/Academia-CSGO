@@ -1,5 +1,5 @@
 .footer{
-    background: rgb(34,81,198);
+    background: map-get($map: $palette, $key: 'blue' );
     background: linear-gradient(180deg, rgba(34,81,198,1) 35%, rgba(0,69,240,1) 64%, rgba(9,9,121,1) 77%);
     min-height: 2.5rem;
     display: flex;
@@ -16,7 +16,7 @@
             margin: 1rem 0;
             a {
                 font-size: 2em;
-                color: rgb(255, 255, 255);
+                color: map-get($map: $palette, $key: 'white');
                 margin: 0 1rem;
                 transition: 0.5s;
             }

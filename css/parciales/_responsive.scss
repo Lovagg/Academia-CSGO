@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@include tablet {
     .header{
         flex-direction: column;
         
@@ -40,7 +40,7 @@
         width: 100%;
     }
 }
-@media screen and (max-width: 425px) {
+@include mobile {
 .header__ul{
     flex-direction: column;
     line-height: 1.7;

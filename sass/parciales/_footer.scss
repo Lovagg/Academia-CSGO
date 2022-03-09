@@ -16,7 +16,7 @@
             margin: 1rem 0;
             a {
                 font-size: 2em;
-                color: rgb(255, 255, 255);
+                color: map-get($map: $palette, $key: 'white');
                 margin: 0 1rem;
                 transition: 0.5s;
             }
